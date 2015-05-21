@@ -1,3 +1,4 @@
 require 'active_record'
+require 'httparty'
 
-require './location.rb'
+require './condition_summary.rb'
