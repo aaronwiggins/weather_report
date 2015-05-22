@@ -12,6 +12,6 @@ class TenDayForecast
   end
 
   # def ten_day_forecast
-  #   @page["forecast"]["simpleforecast"]["forecastday"=> "high"]]
+  #   @page["forecast"]["simpleforecast"]["forecastday"]["high"]
   # end
 end
