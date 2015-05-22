@@ -25,10 +25,11 @@ class WeatherReport < MiniTest::Test
   #   assert true, sun_one.sun_time("sunrise").scan(/\d?\d\:\d{2}/) ? true : false
   # end
 
-  # def test_get_weather_alerts
-  #   check_weather = WeatherAlert.new(73542)
-  #   p check_weather.get_alert?
-  #   assert true, check_weather.get_alert?
-  #   #find description & expires
-  # end
+  def test_get_weather_alerts
+    # 73542 alert in the area right now 5/22/15 9:40
+    check_weather = WeatherAlert.new(27513)
+    p check_weather.get_alert?
+    assert true, check_weather.get_alert?
+    #find description & expires
+  end
 end
