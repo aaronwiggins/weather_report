@@ -16,8 +16,4 @@ class WeatherAlert
       "Watch for #{description} in your area until #{expire_time}"
     end
   end
-
-  private def get_data
-    HTTParty.get("http://api.wunderground.com/api/#{ENV["WU_KEY"]}/alerts/q/#{zip}.json")
-  end
 end

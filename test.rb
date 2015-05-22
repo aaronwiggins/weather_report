@@ -36,17 +36,17 @@ end
 
 
 class WeatherReport < MiniTest::Test
-  def test_can_get_site_info
-    area = ConditionSummary.new(27513)
-    p area.zip
-    assert_equal "#{area.zip}", area.page["current_observation"]["display_location"]["zip"]
-  end
-
-  # def test_ten_day_forecast
-  #   report = TenDayForecast.new(27513)
-  #   puts "On " + "#{report.get_day} " "#{report.get_forecast}"
-  #   # assert_equal 21, report.ten_day_forecast
+  # def test_can_get_site_info
+  #   area = ConditionSummary.new(27513)
+  #   p area.zip
+  #   assert_equal "#{area.zip}", area.page["current_observation"]["display_location"]["zip"]
   # end
+
+  def test_ten_day_forecast
+    report = TenDayForecast.new(27513)
+    puts report.get_day
+    assert_equal 10, report.get_day.lines.count
+  end
   #
   # def test_get_sunrise_sunset_time
   #   sun_one = SunRiseSet.new(27513)

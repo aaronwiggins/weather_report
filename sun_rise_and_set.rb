@@ -13,8 +13,4 @@ class SunRiseSet
     minute = @page["sun_phase"][type]["minute"]
     "#{type} time is: #{hour}:#{minute}"
   end
-
-  private def get_data
-    HTTParty.get("http://api.wunderground.com/api/#{ENV["WU_KEY"]}/astronomy/q/#{zip}.json")
-  end
 end

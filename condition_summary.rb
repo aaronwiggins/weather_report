@@ -11,8 +11,4 @@ class ConditionSummary
   def get_fahrenheit
     @page["current_observation"]["temp_f"]
   end
-
-  private def get_data
-    HTTParty.get("http://api.wunderground.com/api/#{ENV["WU_KEY"]}/conditions/q/#{zip}.json")
-  end
 end
