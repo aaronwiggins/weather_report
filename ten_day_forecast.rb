@@ -11,7 +11,24 @@ class TenDayForecast
     @page["current_observation"]["temp_f"]
   end
 
-  # def ten_day_forecast
-  #   @page["forecast"]["simpleforecast"]["forecastday"]["high"]
-  # end
+  def get_day
+    count = 0
+    while count < 20
+      day = @page["forecast"]["txt_forecast"]["forecastday"][count]["title"]
+      count += 1
+    end
+    "#{day}"
+  end
+
+  def get_forecast
+    count = 0
+    while count < 20
+      weather = @page["forecast"]["txt_forecast"]["forecastday"][count]["fcttext"] #make an each loop, should let me go into the array and pull out "day" & ["high"]}
+      count += 1
+    end
+    "the weather will be: #{weather}"
+  end
+
+
+
 end
