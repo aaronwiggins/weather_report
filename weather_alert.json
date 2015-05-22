@@ -1,0 +1,228 @@
+{
+"response": {
+"version": "0.1",
+"termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+"features": {
+"alerts": 1
+}
+},
+"query_zone": "037",
+"alerts": [
+{
+"type": "FLO",
+"description": "Flood Warning",
+"date": "2:42 am CDT on May 22, 2015",
+"date_epoch": "1432280520",
+"expires": "11:31 AM CDT on May 22, 2015",
+"expires_epoch": "1432312260",
+"tz_short": "CDT",
+"tz_long": "America/Chicago",
+"message": "\nThe Flood Warning continues for\n the Red River near Burkburnett. \n \n* Until Sunday morning...or until the warning is cancelled. \n \n* At 1:30 am Friday the stage was 9.6 feet. \n \n* Minor flooding is occurring and minor flooding is forecast. \n \n* Flood stage is 9.0 feet. \n \n* Forecast...the Red River will continue rising and crest near 10.4 \n feet early Saturday morning. The Red River will fall below flood \n stage early Sunday morning. \n \n* Impact...at 10 feet...crop and range lands...oil fields...and \n rural roads are affected. Some low-lying areas near the river may \n be isolated by high water in side channels. Bottomlands near \n Davidson Oklahoma begin to flood several hours before the crest \n approaches the Burkburnett area. The flood crest reaches the area \n along the river near Taylor Oklahoma several hours later. Cattle \n and other property should be relocated to places which are 1 foot \n higher than nearby river banks to avoid being stranded.\n \n \n \nLat...Lon 3414 9895 3430 9895 3418 9854 3419 9805\n 3406 9815 3402 9859\n\n\n\n\n\n240 am CDT Fri may 22 2015\n\n...Flood Warning extended until this morning...\n \nthe Flood Warning continues for\n the North Fork Red River near Headrick \n \n* until this morning...or until the warning is cancelled. \n \n* At 2:00 am Friday the stage was 14.2 feet. \n \n* Minor flooding is occurring. \n \n* Flood stage is 14.0 feet. \n \n* Forecast...the North Fork Red River has crested and will continue \n to fall. The North Fork Red River will fall below flood stage early\n Friday morning.\n \n \nLat...Lon 3458 9924 3454 9911 3468 9902 3486 9912\n 3481 9917 3471 9921\n\n\n\n\n\n",
+"phenomena": "FL",
+"significance": "W",
+"ZONES": [
+{
+"state": "OK",
+"ZONE": "036"
+},
+{
+"state": "OK",
+"ZONE": "035"
+},
+{
+"state": "OK",
+"ZONE": "037"
+},
+{
+"state": "TX",
+"ZONE": "090"
+},
+{
+"state": "TX",
+"ZONE": "086"
+}
+],
+"StormBased": {}
+},
+{
+"type": "WAT",
+"description": "Areal Flood Advisory, Flash Flood Watch",
+"date": "5:44 am CDT on May 22, 2015",
+"date_epoch": "1432291440",
+"expires": "7:00 AM CDT on May 25, 2015",
+"expires_epoch": "1432555200",
+"tz_short": "CDT",
+"tz_long": "America/Chicago",
+"message": "\nThe National Weather Service in Norman has issued a\n\n* Urban and Small Stream Flood Advisory for...\n Cotton County in southwestern Oklahoma...\n northern Jefferson County in southern Oklahoma...\n Comanche County in southwestern Oklahoma...\n northeastern Jackson County in southwestern Oklahoma...\n Tillman County in southwestern Oklahoma...\n southwestern Kiowa County in southwestern Oklahoma...\n southern Grady County in central Oklahoma...\n Stephens County in southern Oklahoma...\n southeastern Greer County in southwestern Oklahoma...\n northern Wichita County in northern Texas...\n northwestern Clay County in northern Texas...\n\n* until 945 am CDT\n\n* at 543 am CDT...National Weather Service radar indicated heavy \n rain that will cause Urban and Small Stream flooding in the \n advisory area. \n\n* Some locations that will experience minor flooding include\n Lawton...Duncan...Burkburnett...Marlow...Electra...Walters...\n Cache...Waurika...Comanche...Snyder...Rush Springs...Elgin...\n Temple...Grandfield...Bray...Fletcher...Geronimo...Blair...\n Sterling...Empire City...Velma...Randlett...Chattanooga...Mountain\n park...Indiahoma...Medicine Park...Hastings...Loco...Devol and\n Faxon.\n\nRainfall between one quarter and three quarters of an inch is \nexpected over the area through 945 am CDT.\n\nThis includes the following streams and drainages...crater creek...\nRoaring Creek...beef creek...little deep Red Creek...scout creek...\nRough Creek...Pecan Creek...Long Branch...Deer Creek...Larimore\ncreek...Sugar Creek...Burnett Creek...dry Beaver Creek...bule\ncreek...west Mud Creek...Cooper Creek...blue Beaver Creek...Squirrel\nCreek...West Fork Bluff Creek...middle Roaring Creek...Snake Creek...\nBluff Creek...Rock Creek...North Fork Red River...coffin creek...\nnorth Mud Creek...Cow Creek...Glen creek...Tony creek and West Fork\ndeep Red Creek.\n\nPrecautionary/preparedness actions...\n\nMost flood deaths occur in automobiles. Never drive your vehicle into\nareas where the water covers the roadway. Flood waters are usually\ndeeper than they appear. Just one foot of flowing water is powerful\nenough to sweep vehicles off the Road. When encountering flooded\nroads make the smart choice...turn around...dont drown.\n\n\nLat...Lon 3483 9948 3484 9769 3419 9756 3398 9895\n 3453 9898\n\n\nMbs\n\n\n\n540 am CDT Fri may 22 2015\n\nThe National Weather Service in Norman has issued a\n\n* Urban and Small Stream Flood Advisory for...\n Jackson County in southwestern Oklahoma...\n western Tillman County in southwestern Oklahoma...\n Harmon County in southwestern Oklahoma...\n southeastern Greer County in southwestern Oklahoma...\n Hardeman County in northern Texas...\n western Baylor County in northern Texas...\n Knox County in northern Texas...\n Wilbarger County in northern Texas...\n Foard County in northern Texas...\n\n* until 845 am CDT\n\n* at 539 am CDT...National Weather Service radar indicated heavy \n rain that will cause Urban and Small Stream flooding in the \n advisory area. Up to three quarters of an rain has fallen in the \n past hour from Hollis Oklahoma to Quanah and Knox City Texas.\n\n* Some locations that will experience minor flooding include\n Altus...Vernon...Quanah...Seymour...Frederick...Hollis...Munday...\n Knox City...Crowell...Tipton...Blair...Chillicothe...Medicine\n Mound...Olustee...Eldorado...Davidson...Duke...Goree...Benjamin...\n Gould...Martha...Headrick...Elmer...Humphreys...Lazare...\n Truscott...Harrold...Goodlett...Red Springs and Vera.\n\nAdditional rainfall up to one half inch is expected over the area\nthrough 845 am CDT.\n\nThis includes the following streams and drainages...Mulberry creek...\nGyp creek...Prairie Dog town Fork Red River...lillus creek...Millers\nCreek...North Groesbeck creek...talking John Creek...Rock creek...\nSouth Fork wanderers creek...little moonshine creek...East Fork Sandy\nCreek...Colwell creek...Hackberry creek...Cattle Creek...South Beaver\ncreek...Beaver Creek...minnas creek...Arkansas creek...Salt Flat\ncreek...little good creek...Stinking Creek...west Coffee Creek...\nBuffalo Creek...canal creek...Wildcat creek...Dutch Creek...Gypsum\nCreek...Cave Creek...blacks branch creek and raggedy creek.\n\nPrecautionary/preparedness actions...\n\nMost flood deaths occur in automobiles. Never drive your vehicle into\nareas where the water covers the roadway. Flood waters are usually\ndeeper than they appear. Just one foot of flowing water is powerful\nenough to sweep vehicles off the Road. When encountering flooded\nroads make the smart choice...turn around...dont drown.\n\n\nLat...Lon 3340 9999 3395 10002 3497 10000 3481 9931\n 3467 9910 3464 9910 3459 9899 3401 9896\n 3340 9939\n\n\nMbs\n\n\n\n347 am CDT Fri may 22 2015\n\n...Flash Flood Watch remains in effect through Monday morning...\n\nThe Flash Flood Watch continues for\n\n* all of central...southern...and southwestern Oklahoma...and all\n of western North Texas. \n\n* Through Monday morning\n\n* up to an inch of rainfall possible through midnight tonight\n\n* Saturday and Sunday 2 to 5 inches of rainfall expected with\n locally higher amounts\n\nPrecautionary/preparedness actions...\n\nMonitor weather forecasts and information. Avoid travel in\nflooded areas...and make plans to get to higher ground if\nflooding develops or worsens in your area.\n\n\n\nMbs\n\n\n\n",
+"phenomena": "FF",
+"significance": "A",
+"ZONES": [
+{
+"state": "OK",
+"ZONE": "019"
+},
+{
+"state": "OK",
+"ZONE": "021"
+},
+{
+"state": "OK",
+"ZONE": "023"
+},
+{
+"state": "OK",
+"ZONE": "025"
+},
+{
+"state": "OK",
+"ZONE": "027"
+},
+{
+"state": "OK",
+"ZONE": "029"
+},
+{
+"state": "OK",
+"ZONE": "031"
+},
+{
+"state": "OK",
+"ZONE": "033"
+},
+{
+"state": "OK",
+"ZONE": "035"
+},
+{
+"state": "OK",
+"ZONE": "037"
+},
+{
+"state": "OK",
+"ZONE": "039"
+},
+{
+"state": "OK",
+"ZONE": "020"
+},
+{
+"state": "OK",
+"ZONE": "022"
+},
+{
+"state": "OK",
+"ZONE": "024"
+},
+{
+"state": "OK",
+"ZONE": "026"
+},
+{
+"state": "OK",
+"ZONE": "028"
+},
+{
+"state": "OK",
+"ZONE": "030"
+},
+{
+"state": "OK",
+"ZONE": "032"
+},
+{
+"state": "OK",
+"ZONE": "034"
+},
+{
+"state": "OK",
+"ZONE": "036"
+},
+{
+"state": "OK",
+"ZONE": "038"
+},
+{
+"state": "OK",
+"ZONE": "040"
+},
+{
+"state": "OK",
+"ZONE": "041"
+},
+{
+"state": "OK",
+"ZONE": "042"
+},
+{
+"state": "OK",
+"ZONE": "043"
+},
+{
+"state": "OK",
+"ZONE": "044"
+},
+{
+"state": "OK",
+"ZONE": "045"
+},
+{
+"state": "OK",
+"ZONE": "046"
+},
+{
+"state": "OK",
+"ZONE": "047"
+},
+{
+"state": "OK",
+"ZONE": "048"
+},
+{
+"state": "OK",
+"ZONE": "050"
+},
+{
+"state": "OK",
+"ZONE": "051"
+},
+{
+"state": "OK",
+"ZONE": "052"
+},
+{
+"state": "TX",
+"ZONE": "083"
+},
+{
+"state": "TX",
+"ZONE": "084"
+},
+{
+"state": "TX",
+"ZONE": "085"
+},
+{
+"state": "TX",
+"ZONE": "086"
+},
+{
+"state": "TX",
+"ZONE": "087"
+},
+{
+"state": "TX",
+"ZONE": "088"
+},
+{
+"state": "TX",
+"ZONE": "089"
+},
+{
+"state": "TX",
+"ZONE": "090"
+}
+],
+"StormBased": {}
+}
+]
+}

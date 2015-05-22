@@ -3,7 +3,7 @@ require './startup'
 class WeatherAlert
   def initialize(zip)
     @zip = zip
-    @page = HTTParty.get("http://api.wunderground.com/api/#{ENV["WU_KEY"]}/alerts/q/#{zip}.json")
+    @page = get_data
   end
 
   def get_alert?
@@ -15,5 +15,9 @@ class WeatherAlert
       expire_time = alert["expires"]
       "Watch for #{description} in your area until #{expire_time}"
     end
+  end
+
+  private def get_data
+    HTTParty.get("http://api.wunderground.com/api/#{ENV["WU_KEY"]}/alerts/q/#{zip}.json")
   end
 end
