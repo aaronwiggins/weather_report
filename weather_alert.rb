@@ -6,14 +6,18 @@ class WeatherAlert
     @page = get_data
   end
 
-  def get_alert?
-    alert = @page["alerts"][0]
-    if alert.empty == nil
+  def get_alert
+    alert = @page["alerts"]
+    if alert.empty? == true
       "No severe weather alerts in your area"
     else
-      description = alert["description"]
-      expire_time = alert["expires"]
-      "Watch for #{description} in your area until #{expire_time}"
+      warnings = ""
+      alert.each do |x|
+        description = x["description"]
+        expire_time = x["expires"]
+        warnings << "Watch for #{description} in your area until #{expire_time}\n"
+      end
+      warnings
     end
   end
 end
