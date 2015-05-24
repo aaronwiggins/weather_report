@@ -5,7 +5,7 @@ class SunRiseSet
   attr_reader :zip, :page
   def initialize(zip)
     @zip = zip
-    @page = get_data
+    @page = HTTParty.get("http://api.wunderground.com/api/#{ENV["WU_KEY"]}/astronomy/q/#{zip}.json")#get_data
   end
 
   def sun_time(type)

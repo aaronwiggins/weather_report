@@ -3,7 +3,7 @@ require './startup'
 class WeatherAlert
   def initialize(zip)
     @zip = zip
-    @page = get_data
+    @page = HTTParty.get("http://api.wunderground.com/api/#{ENV["WU_KEY"]}/alerts/q/#{zip}.json")#get_data
   end
 
   def get_alert

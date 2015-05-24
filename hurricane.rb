@@ -2,7 +2,7 @@ require './startup'
 
 class Hurricane
   def initialize
-    @page = get_data
+    @page = HTTParty.get("http://api.wunderground.com/api/#{ENV["WU_KEY"]}/currenthurricane/view.json")#get_data
   end
 
   def active_hurricane
