@@ -10,5 +10,7 @@ Clone [repository](https://github.com/aaronwiggins/weather_report)
 
 Run `ruby weather_program.rb` in bash
 
+You'll need get get your own key from Weather Underground, follow the instructions in the link below. Sub your key for `#{ENV["WU_KEY"]}` which is in the initialize for each class file.
+
 ###Additional Info
 For more information on the Weather Underground API, click [here](http://www.wunderground.com/weather/api/d/docs?MR=1)

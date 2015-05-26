@@ -4,7 +4,7 @@ class ConditionSummary
   attr_reader :zip, :page
   def initialize(zip)
     @zip = zip
-    @page = HTTParty.get("http://api.wunderground.com/api/#{ENV["WU_KEY"]}/conditions/q/#{zip}.json")#get_data
+    @page = HTTParty.get("http://api.wunderground.com/api/#{ENV["WU_KEY"]}/conditions/q/#{zip}.json")
   end
 
   def get_weather_info

@@ -1,37 +1,6 @@
 require './startup'
-
-# class TenDayForecast
-#   private def get_data
-#     @page = JSON.parse(File.open("ten_day_forecast.json").read)
-#   end
-# end
-#
-# class SunRiseSet
-#   private def get_data
-#     @page = JSON.parse(File.open("sun_rise_and_set.json").read)
-#   end
-# end
-#
-# class WeatherAlert
-#   private def get_data
-#     @page = JSON.parse(File.open("weather_alert.json").read)
-#   end
-# end
-#
-# class Hurricane
-#   private def get_data
-#     @page = JSON.parse(File.open("hurricane.json").read)
-#   end
-# end
-#
-# class ConditionSummary
-#   private def get_data
-#     @page = JSON.parse(File.open("condition_summary.json").read)
-#   end
-# end
-
 loop do
-  puts "What zip code would you like to search for weather details?"
+  puts "What zip code would you like to search for weather details? Press enter\nto exit"
   input = gets.chomp
   if input.empty?
     exit
